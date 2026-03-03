@@ -1,0 +1,16 @@
+[extract_matrix.py:INFO]	Python version 3.12.12 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 20:07:49) [Clang 20.1.8 ]
+
+[extract_matrix.py:INFO]	#TIME 0.0002	extract_matrix(cool='GBM39ec.mcool::/resolutions/5000', ecdna_cycle='GBM39_ecDNA.bed', resolution=5000, output_prefix='initial', log_fn='initial_preprocessing.log', save_npy=False)
+[extract_matrix.py:INFO]	#TIME 0.0004	ecDNA involves 3 amplified intervals with resolution 5000.
+[extract_matrix.py:DEBUG]	#TIME 0.0005		Amplified interval ['chr7', 54765000, 55125000, 'True'].
+[extract_matrix.py:DEBUG]	#TIME 0.0005		Amplified interval ['chr7', 55155000, 55610000, 'True'].
+[extract_matrix.py:DEBUG]	#TIME 0.0005		Amplified interval ['chr7', 55610000, 56050000, 'True'].
+[extract_matrix.py:INFO]	#TIME 0.0150	There are 251 bins in total in the expanded matrix.
+[extract_matrix.py:INFO]	#TIME 0.3407	Extracted the expanded matrix from the input cool file.
+[extract_matrix.py:INFO]	#TIME 0.3408	There are 251 bins in total in the collapsed matrix.
+[extract_matrix.py:INFO]	#TIME 0.3413	Created the collapsed matrix from expanded matrix.
+[extract_matrix.py:INFO]	#TIME 0.3528	Saved the raw collapsed matrix to initial_raw_collapsed_matrix.txt.
+[extract_matrix.py:INFO]	#TIME 0.3553	Normalized the collapsed matrix.
+[extract_matrix.py:INFO]	#TIME 0.3812	Saved the normalized collapsed matrix to initial_collapsed_matrix.txt.
+[extract_matrix.py:INFO]	#TIME 0.3815	Saved the annotation of bins to initial_annotations.bed.
+[extract_matrix.py:INFO]	#TIME 0.3815	Total runtime.
